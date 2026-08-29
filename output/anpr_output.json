@@ -1,0 +1,1300 @@
+{
+  "source": "data/test2.mp4",
+  "output_video": "output/anpr_output.mp4",
+  "processed_at": "2026-08-29T16:36:36.072335+00:00",
+  "fps": 30.0,
+  "total_frames": 755,
+  "processing_time_sec": 210.4,
+  "summary": {
+    "vehicles_tracked": 83,
+    "vehicles_with_plate": 4
+  },
+  "vehicles": [
+    {
+      "track_id": 1,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 260,
+      "first_frame": 0,
+      "last_frame": 259,
+      "first_seen_sec": 0.0,
+      "last_seen_sec": 8.63,
+      "plate": null
+    },
+    {
+      "track_id": 2,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 247,
+      "first_frame": 0,
+      "last_frame": 248,
+      "first_seen_sec": 0.0,
+      "last_seen_sec": 8.27,
+      "plate": null
+    },
+    {
+      "track_id": 3,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 254,
+      "first_frame": 0,
+      "last_frame": 253,
+      "first_seen_sec": 0.0,
+      "last_seen_sec": 8.43,
+      "plate": null
+    },
+    {
+      "track_id": 4,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 39,
+      "first_frame": 0,
+      "last_frame": 38,
+      "first_seen_sec": 0.0,
+      "last_seen_sec": 1.27,
+      "plate": null
+    },
+    {
+      "track_id": 5,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 241,
+      "first_frame": 0,
+      "last_frame": 240,
+      "first_seen_sec": 0.0,
+      "last_seen_sec": 8.0,
+      "plate": null
+    },
+    {
+      "track_id": 6,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 249,
+      "first_frame": 0,
+      "last_frame": 248,
+      "first_seen_sec": 0.0,
+      "last_seen_sec": 8.27,
+      "plate": null
+    },
+    {
+      "track_id": 7,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 107,
+      "first_frame": 0,
+      "last_frame": 139,
+      "first_seen_sec": 0.0,
+      "last_seen_sec": 4.63,
+      "plate": null
+    },
+    {
+      "track_id": 8,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 140,
+      "first_frame": 0,
+      "last_frame": 139,
+      "first_seen_sec": 0.0,
+      "last_seen_sec": 4.63,
+      "plate": null
+    },
+    {
+      "track_id": 9,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 227,
+      "first_frame": 0,
+      "last_frame": 231,
+      "first_seen_sec": 0.0,
+      "last_seen_sec": 7.7,
+      "plate": null
+    },
+    {
+      "track_id": 10,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 215,
+      "first_frame": 0,
+      "last_frame": 224,
+      "first_seen_sec": 0.0,
+      "last_seen_sec": 7.47,
+      "plate": null
+    },
+    {
+      "track_id": 11,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 15,
+      "first_frame": 0,
+      "last_frame": 14,
+      "first_seen_sec": 0.0,
+      "last_seen_sec": 0.47,
+      "plate": null
+    },
+    {
+      "track_id": 12,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 296,
+      "first_frame": 0,
+      "last_frame": 316,
+      "first_seen_sec": 0.0,
+      "last_seen_sec": 10.53,
+      "plate": {
+        "text": "KA02HK1826",
+        "confidence": 0.048,
+        "votes": 1,
+        "total_readings": 11,
+        "reading_log": [
+          {
+            "frame": 167,
+            "text": "7402KK4820",
+            "confidence": 0.037
+          },
+          {
+            "frame": 177,
+            "text": "102XM1828",
+            "confidence": 0.32
+          },
+          {
+            "frame": 187,
+            "text": "XA02HM1826",
+            "confidence": 0.431
+          },
+          {
+            "frame": 197,
+            "text": "K402MK1826",
+            "confidence": 0.216
+          },
+          {
+            "frame": 207,
+            "text": "K402MM1826",
+            "confidence": 0.373
+          },
+          {
+            "frame": 217,
+            "text": "KA02HM1826",
+            "confidence": 0.16
+          },
+          {
+            "frame": 227,
+            "text": "KA02HK1826",
+            "confidence": 0.533
+          },
+          {
+            "frame": 237,
+            "text": "KA02KN18267",
+            "confidence": 0.403
+          },
+          {
+            "frame": 247,
+            "text": "IKA02HN18261",
+            "confidence": 0.333
+          },
+          {
+            "frame": 257,
+            "text": "KA02NH18287",
+            "confidence": 0.39
+          },
+          {
+            "frame": 267,
+            "text": "HN448281",
+            "confidence": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "track_id": 29,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 106,
+      "first_frame": 51,
+      "last_frame": 184,
+      "first_seen_sec": 1.7,
+      "last_seen_sec": 6.13,
+      "plate": null
+    },
+    {
+      "track_id": 46,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 6,
+      "first_frame": 64,
+      "last_frame": 72,
+      "first_seen_sec": 2.13,
+      "last_seen_sec": 2.4,
+      "plate": null
+    },
+    {
+      "track_id": 68,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 54,
+      "first_frame": 141,
+      "last_frame": 215,
+      "first_seen_sec": 4.7,
+      "last_seen_sec": 7.17,
+      "plate": null
+    },
+    {
+      "track_id": 90,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 15,
+      "first_frame": 153,
+      "last_frame": 167,
+      "first_seen_sec": 5.1,
+      "last_seen_sec": 5.57,
+      "plate": null
+    },
+    {
+      "track_id": 116,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 12,
+      "first_frame": 166,
+      "last_frame": 177,
+      "first_seen_sec": 5.53,
+      "last_seen_sec": 5.9,
+      "plate": null
+    },
+    {
+      "track_id": 117,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 75,
+      "first_frame": 166,
+      "last_frame": 240,
+      "first_seen_sec": 5.53,
+      "last_seen_sec": 8.0,
+      "plate": null
+    },
+    {
+      "track_id": 118,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 58,
+      "first_frame": 166,
+      "last_frame": 223,
+      "first_seen_sec": 5.53,
+      "last_seen_sec": 7.43,
+      "plate": null
+    },
+    {
+      "track_id": 134,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 36,
+      "first_frame": 181,
+      "last_frame": 224,
+      "first_seen_sec": 6.03,
+      "last_seen_sec": 7.47,
+      "plate": null
+    },
+    {
+      "track_id": 164,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 15,
+      "first_frame": 225,
+      "last_frame": 248,
+      "first_seen_sec": 7.5,
+      "last_seen_sec": 8.27,
+      "plate": null
+    },
+    {
+      "track_id": 189,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 34,
+      "first_frame": 250,
+      "last_frame": 314,
+      "first_seen_sec": 8.33,
+      "last_seen_sec": 10.47,
+      "plate": null
+    },
+    {
+      "track_id": 190,
+      "vehicle_type": "truck",
+      "wheeler": 6,
+      "frames_seen": 5,
+      "first_frame": 255,
+      "last_frame": 259,
+      "first_seen_sec": 8.5,
+      "last_seen_sec": 8.63,
+      "plate": {
+        "text": "IKA02NN1828",
+        "confidence": 0.599,
+        "votes": 1,
+        "total_readings": 1,
+        "reading_log": [
+          {
+            "frame": 257,
+            "text": "IKA02NN1828",
+            "confidence": 0.599
+          }
+        ]
+      }
+    },
+    {
+      "track_id": 192,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 6,
+      "first_frame": 255,
+      "last_frame": 260,
+      "first_seen_sec": 8.5,
+      "last_seen_sec": 8.67,
+      "plate": null
+    },
+    {
+      "track_id": 199,
+      "vehicle_type": "truck",
+      "wheeler": 6,
+      "frames_seen": 83,
+      "first_frame": 262,
+      "last_frame": 381,
+      "first_seen_sec": 8.73,
+      "last_seen_sec": 12.7,
+      "plate": null
+    },
+    {
+      "track_id": 200,
+      "vehicle_type": "truck",
+      "wheeler": 6,
+      "frames_seen": 1,
+      "first_frame": 268,
+      "last_frame": 268,
+      "first_seen_sec": 8.93,
+      "last_seen_sec": 8.93,
+      "plate": null
+    },
+    {
+      "track_id": 206,
+      "vehicle_type": "truck",
+      "wheeler": 6,
+      "frames_seen": 8,
+      "first_frame": 276,
+      "last_frame": 283,
+      "first_seen_sec": 9.2,
+      "last_seen_sec": 9.43,
+      "plate": null
+    },
+    {
+      "track_id": 207,
+      "vehicle_type": "truck",
+      "wheeler": 6,
+      "frames_seen": 2,
+      "first_frame": 287,
+      "last_frame": 288,
+      "first_seen_sec": 9.57,
+      "last_seen_sec": 9.6,
+      "plate": null
+    },
+    {
+      "track_id": 210,
+      "vehicle_type": "truck",
+      "wheeler": 6,
+      "frames_seen": 6,
+      "first_frame": 297,
+      "last_frame": 302,
+      "first_seen_sec": 9.9,
+      "last_seen_sec": 10.07,
+      "plate": null
+    },
+    {
+      "track_id": 211,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 51,
+      "first_frame": 299,
+      "last_frame": 401,
+      "first_seen_sec": 9.97,
+      "last_seen_sec": 13.37,
+      "plate": null
+    },
+    {
+      "track_id": 212,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 2,
+      "first_frame": 299,
+      "last_frame": 300,
+      "first_seen_sec": 9.97,
+      "last_seen_sec": 10.0,
+      "plate": null
+    },
+    {
+      "track_id": 215,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 1,
+      "first_frame": 304,
+      "last_frame": 304,
+      "first_seen_sec": 10.13,
+      "last_seen_sec": 10.13,
+      "plate": null
+    },
+    {
+      "track_id": 216,
+      "vehicle_type": "truck",
+      "wheeler": 6,
+      "frames_seen": 451,
+      "first_frame": 304,
+      "last_frame": 754,
+      "first_seen_sec": 10.13,
+      "last_seen_sec": 25.13,
+      "plate": {
+        "text": "X4028H7258",
+        "confidence": 0.044,
+        "votes": 7,
+        "total_readings": 40,
+        "reading_log": [
+          {
+            "frame": 356,
+            "text": "314021H7256",
+            "confidence": 0.246
+          },
+          {
+            "frame": 366,
+            "text": "34028H7258",
+            "confidence": 0.272
+          },
+          {
+            "frame": 376,
+            "text": "34024H7258",
+            "confidence": 0.197
+          },
+          {
+            "frame": 386,
+            "text": "314024H7256",
+            "confidence": 0.11
+          },
+          {
+            "frame": 396,
+            "text": "34021H7256",
+            "confidence": 0.245
+          },
+          {
+            "frame": 406,
+            "text": "34021H72560",
+            "confidence": 0.069
+          },
+          {
+            "frame": 416,
+            "text": "34024H7256",
+            "confidence": 0.148
+          },
+          {
+            "frame": 426,
+            "text": "34024H7256",
+            "confidence": 0.148
+          },
+          {
+            "frame": 436,
+            "text": "X1024H7256",
+            "confidence": 0.176
+          },
+          {
+            "frame": 446,
+            "text": "34024H7256",
+            "confidence": 0.126
+          },
+          {
+            "frame": 456,
+            "text": "34028H7258",
+            "confidence": 0.17
+          },
+          {
+            "frame": 466,
+            "text": "X4024H7258",
+            "confidence": 0.304
+          },
+          {
+            "frame": 476,
+            "text": "314021H7258",
+            "confidence": 0.208
+          },
+          {
+            "frame": 486,
+            "text": "34024H7256",
+            "confidence": 0.176
+          },
+          {
+            "frame": 496,
+            "text": "X4028H7258",
+            "confidence": 0.294
+          },
+          {
+            "frame": 506,
+            "text": "X4028H7258",
+            "confidence": 0.193
+          },
+          {
+            "frame": 516,
+            "text": "X4028H7258",
+            "confidence": 0.242
+          },
+          {
+            "frame": 526,
+            "text": "314028H7258",
+            "confidence": 0.053
+          },
+          {
+            "frame": 536,
+            "text": "X4021H7256",
+            "confidence": 0.23
+          },
+          {
+            "frame": 546,
+            "text": "X14024H7256",
+            "confidence": 0.107
+          },
+          {
+            "frame": 556,
+            "text": "X4021H7258",
+            "confidence": 0.336
+          },
+          {
+            "frame": 566,
+            "text": "X14021H7258",
+            "confidence": 0.163
+          },
+          {
+            "frame": 576,
+            "text": "X4021H7256",
+            "confidence": 0.224
+          },
+          {
+            "frame": 586,
+            "text": "X4028H7258",
+            "confidence": 0.209
+          },
+          {
+            "frame": 596,
+            "text": "34021H7256",
+            "confidence": 0.167
+          },
+          {
+            "frame": 606,
+            "text": "34024H7256",
+            "confidence": 0.251
+          },
+          {
+            "frame": 616,
+            "text": "314021H7258",
+            "confidence": 0.244
+          },
+          {
+            "frame": 626,
+            "text": "34028H7258",
+            "confidence": 0.21
+          },
+          {
+            "frame": 636,
+            "text": "31021H7258",
+            "confidence": 0.337
+          },
+          {
+            "frame": 646,
+            "text": "X4021H7258",
+            "confidence": 0.448
+          },
+          {
+            "frame": 656,
+            "text": "314021H7258",
+            "confidence": 0.2
+          },
+          {
+            "frame": 666,
+            "text": "X4028H7258",
+            "confidence": 0.342
+          },
+          {
+            "frame": 676,
+            "text": "X4028H7258",
+            "confidence": 0.295
+          },
+          {
+            "frame": 686,
+            "text": "314024H7258",
+            "confidence": 0.127
+          },
+          {
+            "frame": 696,
+            "text": "X14021H7258",
+            "confidence": 0.179
+          },
+          {
+            "frame": 706,
+            "text": "X4021H7256",
+            "confidence": 0.294
+          },
+          {
+            "frame": 716,
+            "text": "X4021H7256",
+            "confidence": 0.396
+          },
+          {
+            "frame": 726,
+            "text": "31021H7256",
+            "confidence": 0.19
+          },
+          {
+            "frame": 736,
+            "text": "X4021H7258",
+            "confidence": 0.202
+          },
+          {
+            "frame": 746,
+            "text": "X4028H7258",
+            "confidence": 0.172
+          }
+        ]
+      }
+    },
+    {
+      "track_id": 217,
+      "vehicle_type": "truck",
+      "wheeler": 6,
+      "frames_seen": 21,
+      "first_frame": 306,
+      "last_frame": 328,
+      "first_seen_sec": 10.2,
+      "last_seen_sec": 10.93,
+      "plate": null
+    },
+    {
+      "track_id": 218,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 2,
+      "first_frame": 306,
+      "last_frame": 307,
+      "first_seen_sec": 10.2,
+      "last_seen_sec": 10.23,
+      "plate": null
+    },
+    {
+      "track_id": 219,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 2,
+      "first_frame": 309,
+      "last_frame": 310,
+      "first_seen_sec": 10.3,
+      "last_seen_sec": 10.33,
+      "plate": null
+    },
+    {
+      "track_id": 223,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 4,
+      "first_frame": 316,
+      "last_frame": 319,
+      "first_seen_sec": 10.53,
+      "last_seen_sec": 10.63,
+      "plate": null
+    },
+    {
+      "track_id": 224,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 4,
+      "first_frame": 321,
+      "last_frame": 324,
+      "first_seen_sec": 10.7,
+      "last_seen_sec": 10.8,
+      "plate": null
+    },
+    {
+      "track_id": 225,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 242,
+      "first_frame": 321,
+      "last_frame": 589,
+      "first_seen_sec": 10.7,
+      "last_seen_sec": 19.63,
+      "plate": null
+    },
+    {
+      "track_id": 226,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 34,
+      "first_frame": 321,
+      "last_frame": 354,
+      "first_seen_sec": 10.7,
+      "last_seen_sec": 11.8,
+      "plate": null
+    },
+    {
+      "track_id": 234,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 284,
+      "first_frame": 326,
+      "last_frame": 609,
+      "first_seen_sec": 10.87,
+      "last_seen_sec": 20.3,
+      "plate": null
+    },
+    {
+      "track_id": 235,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 297,
+      "first_frame": 326,
+      "last_frame": 622,
+      "first_seen_sec": 10.87,
+      "last_seen_sec": 20.73,
+      "plate": null
+    },
+    {
+      "track_id": 238,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 17,
+      "first_frame": 328,
+      "last_frame": 344,
+      "first_seen_sec": 10.93,
+      "last_seen_sec": 11.47,
+      "plate": null
+    },
+    {
+      "track_id": 239,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 28,
+      "first_frame": 328,
+      "last_frame": 386,
+      "first_seen_sec": 10.93,
+      "last_seen_sec": 12.87,
+      "plate": null
+    },
+    {
+      "track_id": 240,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 289,
+      "first_frame": 328,
+      "last_frame": 616,
+      "first_seen_sec": 10.93,
+      "last_seen_sec": 20.53,
+      "plate": null
+    },
+    {
+      "track_id": 249,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 314,
+      "first_frame": 330,
+      "last_frame": 643,
+      "first_seen_sec": 11.0,
+      "last_seen_sec": 21.43,
+      "plate": null
+    },
+    {
+      "track_id": 251,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 255,
+      "first_frame": 331,
+      "last_frame": 609,
+      "first_seen_sec": 11.03,
+      "last_seen_sec": 20.3,
+      "plate": null
+    },
+    {
+      "track_id": 252,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 21,
+      "first_frame": 331,
+      "last_frame": 354,
+      "first_seen_sec": 11.03,
+      "last_seen_sec": 11.8,
+      "plate": null
+    },
+    {
+      "track_id": 261,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 263,
+      "first_frame": 346,
+      "last_frame": 622,
+      "first_seen_sec": 11.53,
+      "last_seen_sec": 20.73,
+      "plate": null
+    },
+    {
+      "track_id": 262,
+      "vehicle_type": "truck",
+      "wheeler": 6,
+      "frames_seen": 292,
+      "first_frame": 351,
+      "last_frame": 642,
+      "first_seen_sec": 11.7,
+      "last_seen_sec": 21.4,
+      "plate": null
+    },
+    {
+      "track_id": 267,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 341,
+      "first_frame": 371,
+      "last_frame": 715,
+      "first_seen_sec": 12.37,
+      "last_seen_sec": 23.83,
+      "plate": {
+        "text": "KA02MM9091",
+        "confidence": 0.289,
+        "votes": 5,
+        "total_readings": 17,
+        "reading_log": [
+          {
+            "frame": 483,
+            "text": "KAW2V4IHI",
+            "confidence": 0.052
+          },
+          {
+            "frame": 493,
+            "text": "KAQH4SH",
+            "confidence": 0.197
+          },
+          {
+            "frame": 503,
+            "text": "KA02H4EDI",
+            "confidence": 0.043
+          },
+          {
+            "frame": 513,
+            "text": "KA02M49O9L",
+            "confidence": 0.121
+          },
+          {
+            "frame": 523,
+            "text": "KA02M9II",
+            "confidence": 0.236
+          },
+          {
+            "frame": 533,
+            "text": "KA02H49O91",
+            "confidence": 0.165
+          },
+          {
+            "frame": 543,
+            "text": "KA020M9091",
+            "confidence": 0.269
+          },
+          {
+            "frame": 553,
+            "text": "XA02MM909I",
+            "confidence": 0.364
+          },
+          {
+            "frame": 563,
+            "text": "KA02HM9O9I",
+            "confidence": 0.294
+          },
+          {
+            "frame": 573,
+            "text": "KA02M89O91",
+            "confidence": 0.262
+          },
+          {
+            "frame": 583,
+            "text": "KA02MM9091",
+            "confidence": 0.996
+          },
+          {
+            "frame": 593,
+            "text": "KA02MM909T",
+            "confidence": 0.421
+          },
+          {
+            "frame": 603,
+            "text": "KA02MM9O91",
+            "confidence": 0.547
+          },
+          {
+            "frame": 613,
+            "text": "KA02MM9091",
+            "confidence": 0.987
+          },
+          {
+            "frame": 623,
+            "text": "KA02MM9091",
+            "confidence": 0.967
+          },
+          {
+            "frame": 633,
+            "text": "KA02MM9091",
+            "confidence": 0.992
+          },
+          {
+            "frame": 643,
+            "text": "KA02MM9091",
+            "confidence": 0.967
+          }
+        ]
+      }
+    },
+    {
+      "track_id": 268,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 200,
+      "first_frame": 371,
+      "last_frame": 616,
+      "first_seen_sec": 12.37,
+      "last_seen_sec": 20.53,
+      "plate": null
+    },
+    {
+      "track_id": 276,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 1,
+      "first_frame": 388,
+      "last_frame": 388,
+      "first_seen_sec": 12.93,
+      "last_seen_sec": 12.93,
+      "plate": null
+    },
+    {
+      "track_id": 277,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 1,
+      "first_frame": 393,
+      "last_frame": 393,
+      "first_seen_sec": 13.1,
+      "last_seen_sec": 13.1,
+      "plate": null
+    },
+    {
+      "track_id": 278,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 34,
+      "first_frame": 405,
+      "last_frame": 439,
+      "first_seen_sec": 13.5,
+      "last_seen_sec": 14.63,
+      "plate": null
+    },
+    {
+      "track_id": 279,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 104,
+      "first_frame": 441,
+      "last_frame": 549,
+      "first_seen_sec": 14.7,
+      "last_seen_sec": 18.3,
+      "plate": null
+    },
+    {
+      "track_id": 280,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 87,
+      "first_frame": 461,
+      "last_frame": 594,
+      "first_seen_sec": 15.37,
+      "last_seen_sec": 19.8,
+      "plate": null
+    },
+    {
+      "track_id": 297,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 2,
+      "first_frame": 557,
+      "last_frame": 558,
+      "first_seen_sec": 18.57,
+      "last_seen_sec": 18.6,
+      "plate": null
+    },
+    {
+      "track_id": 298,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 5,
+      "first_frame": 577,
+      "last_frame": 581,
+      "first_seen_sec": 19.23,
+      "last_seen_sec": 19.37,
+      "plate": null
+    },
+    {
+      "track_id": 299,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 19,
+      "first_frame": 583,
+      "last_frame": 603,
+      "first_seen_sec": 19.43,
+      "last_seen_sec": 20.1,
+      "plate": null
+    },
+    {
+      "track_id": 315,
+      "vehicle_type": "truck",
+      "wheeler": 6,
+      "frames_seen": 12,
+      "first_frame": 605,
+      "last_frame": 616,
+      "first_seen_sec": 20.17,
+      "last_seen_sec": 20.53,
+      "plate": null
+    },
+    {
+      "track_id": 323,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 2,
+      "first_frame": 641,
+      "last_frame": 642,
+      "first_seen_sec": 21.37,
+      "last_seen_sec": 21.4,
+      "plate": null
+    },
+    {
+      "track_id": 325,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 1,
+      "first_frame": 648,
+      "last_frame": 648,
+      "first_seen_sec": 21.6,
+      "last_seen_sec": 21.6,
+      "plate": null
+    },
+    {
+      "track_id": 326,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 1,
+      "first_frame": 653,
+      "last_frame": 653,
+      "first_seen_sec": 21.77,
+      "last_seen_sec": 21.77,
+      "plate": null
+    },
+    {
+      "track_id": 327,
+      "vehicle_type": "truck",
+      "wheeler": 6,
+      "frames_seen": 38,
+      "first_frame": 657,
+      "last_frame": 696,
+      "first_seen_sec": 21.9,
+      "last_seen_sec": 23.2,
+      "plate": null
+    },
+    {
+      "track_id": 328,
+      "vehicle_type": "truck",
+      "wheeler": 6,
+      "frames_seen": 2,
+      "first_frame": 657,
+      "last_frame": 658,
+      "first_seen_sec": 21.9,
+      "last_seen_sec": 21.93,
+      "plate": null
+    },
+    {
+      "track_id": 329,
+      "vehicle_type": "truck",
+      "wheeler": 6,
+      "frames_seen": 3,
+      "first_frame": 662,
+      "last_frame": 664,
+      "first_seen_sec": 22.07,
+      "last_seen_sec": 22.13,
+      "plate": null
+    },
+    {
+      "track_id": 333,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 1,
+      "first_frame": 674,
+      "last_frame": 674,
+      "first_seen_sec": 22.47,
+      "last_seen_sec": 22.47,
+      "plate": null
+    },
+    {
+      "track_id": 334,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 11,
+      "first_frame": 676,
+      "last_frame": 696,
+      "first_seen_sec": 22.53,
+      "last_seen_sec": 23.2,
+      "plate": null
+    },
+    {
+      "track_id": 335,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 50,
+      "first_frame": 688,
+      "last_frame": 754,
+      "first_seen_sec": 22.93,
+      "last_seen_sec": 25.13,
+      "plate": null
+    },
+    {
+      "track_id": 341,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 57,
+      "first_frame": 698,
+      "last_frame": 754,
+      "first_seen_sec": 23.27,
+      "last_seen_sec": 25.13,
+      "plate": null
+    },
+    {
+      "track_id": 342,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 38,
+      "first_frame": 703,
+      "last_frame": 751,
+      "first_seen_sec": 23.43,
+      "last_seen_sec": 25.03,
+      "plate": null
+    },
+    {
+      "track_id": 347,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 43,
+      "first_frame": 707,
+      "last_frame": 754,
+      "first_seen_sec": 23.57,
+      "last_seen_sec": 25.13,
+      "plate": null
+    },
+    {
+      "track_id": 350,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 45,
+      "first_frame": 710,
+      "last_frame": 754,
+      "first_seen_sec": 23.67,
+      "last_seen_sec": 25.13,
+      "plate": null
+    },
+    {
+      "track_id": 354,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 41,
+      "first_frame": 712,
+      "last_frame": 754,
+      "first_seen_sec": 23.73,
+      "last_seen_sec": 25.13,
+      "plate": null
+    },
+    {
+      "track_id": 355,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 3,
+      "first_frame": 712,
+      "last_frame": 714,
+      "first_seen_sec": 23.73,
+      "last_seen_sec": 23.8,
+      "plate": null
+    },
+    {
+      "track_id": 362,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 41,
+      "first_frame": 714,
+      "last_frame": 754,
+      "first_seen_sec": 23.8,
+      "last_seen_sec": 25.13,
+      "plate": null
+    },
+    {
+      "track_id": 363,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 41,
+      "first_frame": 714,
+      "last_frame": 754,
+      "first_seen_sec": 23.8,
+      "last_seen_sec": 25.13,
+      "plate": null
+    },
+    {
+      "track_id": 364,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 41,
+      "first_frame": 714,
+      "last_frame": 754,
+      "first_seen_sec": 23.8,
+      "last_seen_sec": 25.13,
+      "plate": null
+    },
+    {
+      "track_id": 388,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 15,
+      "first_frame": 732,
+      "last_frame": 746,
+      "first_seen_sec": 24.4,
+      "last_seen_sec": 24.87,
+      "plate": null
+    },
+    {
+      "track_id": 397,
+      "vehicle_type": "car",
+      "wheeler": 4,
+      "frames_seen": 5,
+      "first_frame": 736,
+      "last_frame": 746,
+      "first_seen_sec": 24.53,
+      "last_seen_sec": 24.87,
+      "plate": null
+    },
+    {
+      "track_id": 421,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 8,
+      "first_frame": 747,
+      "last_frame": 754,
+      "first_seen_sec": 24.9,
+      "last_seen_sec": 25.13,
+      "plate": null
+    },
+    {
+      "track_id": 424,
+      "vehicle_type": "motorcycle",
+      "wheeler": 2,
+      "frames_seen": 6,
+      "first_frame": 749,
+      "last_frame": 754,
+      "first_seen_sec": 24.97,
+      "last_seen_sec": 25.13,
+      "plate": null
+    }
+  ]
+}
