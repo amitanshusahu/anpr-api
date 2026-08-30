@@ -10,6 +10,8 @@ For each detected vehicle, your Python processor should ideally emit something l
 {
   "camera_id": "CAM_042",
   "timestamp": "2026-08-27T05:30:12.421Z",
+  "latitude": 90,
+  "longitude": 90,
 
   "plate": {
     "text": "OD02AB1234",

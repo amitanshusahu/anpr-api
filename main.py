@@ -45,7 +45,7 @@ from ultralytics.utils.plotting import Annotator, colors
 # ----------------------------- CONFIG ---------------------------------
 
 VEHICLE_MODEL = "yolo11n.pt"  # COCO vehicle detector (auto-downloads)
-PLATE_MODEL = "models/license-plate-finetune-v1m.pt"
+PLATE_MODEL = "models/anpr_best.pt"
 TRACKER = "bytetrack.yaml"
 
 VEHICLE_CLASSES = {2: "car", 3: "motorcycle", 5: "bus", 7: "truck"}
@@ -53,7 +53,7 @@ WHEELER = {"car": 4, "motorcycle": 2, "bus": 6, "truck": 6}
 
 VEHICLE_CONF = 0.25
 PLATE_CONF = 0.30
-DET_IMGSZ = 480            # vehicle detection input size (smaller = faster on CPU)
+DET_IMGSZ = 736            # vehicle detection input size (smaller = faster on CPU)
 
 MIN_TRACK_FRAMES = 3       # ignore tracks younger than this
 MIN_VEHICLE_H = 48         # px; skip far-away vehicles
@@ -392,8 +392,8 @@ class ANPRPipeline:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="CCTV vehicle ANPR pipeline (CPU-friendly)")
     parser.add_argument("--source", default="data/test.mp4")
-    parser.add_argument("--output-video", default="output/anpr_output.mp4")
-    parser.add_argument("--output-json", default="output/anpr_output.json")
+    parser.add_argument("--output-video", default="output/anpr4_output.mp4")
+    parser.add_argument("--output-json", default="output/anpr4_output.json")
     parser.add_argument("--display", action="store_true", help="show live preview")
     args = parser.parse_args()
 
